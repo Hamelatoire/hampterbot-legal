@@ -1,12 +1,12 @@
 # Terms of Service
 
-These terms cover your use of **Hampterbot**, a Discord bot run by Hamelatoire ("I", "me"), and its admin web app. Last updated: 24 October 2026.
+These terms cover your use of **Hampterbot**, a Discord bot run by Hamelatoire ("I", "me"), and its admin web app. Last updated: 25 October 2026.
 
 By adding the bot to a server or using its commands, you agree to these terms. If you don't agree, don't use the bot.
 
 ## What the bot does
 
-Depending on how a server is set up, the bot can delete messages that match the server's rules, award XP and levels, manage reaction role panels, and run commands such as `/rank`, `/leaderboard`, `/weather`, `/time`, `/convert`, `/currency`, `/wiki`, `/8ball` and `/embed`.
+Depending on how a server is set up, the bot can delete messages that match the server's rules, award XP and levels, manage reaction role panels, and run commands such as `/rank`, `/leaderboard`, `/weather`, `/time`, `/timezone`, `/translate`, `/convert`, `/currency`, `/wiki`, `/8ball`, `/coinflip`, `/remind` and `/embed`.
 
 ## Your responsibilities
 
@@ -18,7 +18,7 @@ Depending on how a server is set up, the bot can delete messages that match the 
 
 ## Availability
 
-The bot is provided for free and as is. It can go down, change or be removed at any time, and features may stop working, for example when a website or service it relies on changes. I don't promise it will always be available, accurate or free of errors. Weather, time, currency and Wikipedia answers come from third parties and may be wrong or out of date.
+The bot is provided for free and as is. It can go down, change or be removed at any time, and features may stop working, for example when a website or service it relies on changes. I don't promise it will always be available, accurate or free of errors. Weather, time, currency, translation and Wikipedia answers come from third parties and may be wrong or out of date. Reminders are best effort: one may arrive late or not at all, so don't rely on the bot for anything important.
 
 ## Moderation by the bot
 

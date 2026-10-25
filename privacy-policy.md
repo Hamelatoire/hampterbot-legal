@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Hampterbot** is a Discord bot run by Hamelatoire ("I", "me"). This policy explains what the bot and its admin web app do with data. Last updated: 24 October 2026.
+**Hampterbot** is a Discord bot run by Hamelatoire ("I", "me"). This policy explains what the bot and its admin web app do with data. Last updated: 25 October 2026.
 
 By adding the bot to a server or using its commands, you agree to this policy.
 
@@ -22,8 +22,10 @@ In servers where it is installed, the bot receives the messages sent in channels
 | Per-server settings an admin saves: music channel ID, target bot ID, XP cooldown | Moderation and levels |
 | Reaction role panels an admin saves (channel ID, title, emoji and role IDs) and the ID of the message the bot posted | Reaction roles |
 | The names and icons of servers the bot is in | Listing servers in the admin app |
+| For each message the bot deletes: the server, channel and author IDs, the time, and which delete rule matched (never the message text). The latest 500 per server are kept | The admin app's list of deleted messages |
+| For each reminder you set with `/remind`: your user ID, the channel ID, the time it is due and **the text of the reminder** | Posting the reminder when it is due. It is deleted as soon as it has been sent |
 
-The bot does not store usernames, avatars, message text, attachments or direct messages. It may show your username and avatar in a reply (for example on a rank card) without saving them.
+Apart from the text of a reminder you ask it to keep, the bot does not store usernames, avatars, message text, attachments or direct messages. It may show your username and avatar in a reply (for example on a rank card) without saving them.
 
 If the bot leaves a server, that server's settings and XP are kept so they are still there if the bot is added again.
 
@@ -35,7 +37,8 @@ When you run `/embed` with a link, the bot downloads the post or video from that
 
 Some commands send what you typed to a third party to get an answer:
 
-- `/weather` and `/time`: the city name, to Open-Meteo.
+- `/weather`, `/time` and `/timezone`: the city names, to Open-Meteo.
+- `/translate`: the text you want translated, to MyMemory. Don't send it anything private.
 - `/wiki`: the topic, to Wikipedia (Wikimedia).
 - `/currency`: the currency codes, to Frankfurter.
 
@@ -43,7 +46,7 @@ These services have their own privacy policies. The bot does not send them your 
 
 ## The admin web app
 
-Server admins can log in with Discord to manage settings. Logging in asks Discord for permission to see the list of servers you are in. A login cookie keeps you signed in. The app does not store your Discord profile; it uses your server list only to show the servers you can manage.
+Server admins can log in with Discord to manage settings. Logging in asks Discord for permission to see the list of servers you are in. A login cookie keeps you signed in. The app does not store your Discord profile; it uses your server list only to show the servers you can manage. It also looks up the display names of members of those servers from Discord to show next to their XP and deleted messages, and admins can change or reset a member's XP.
 
 ## Logs
 
